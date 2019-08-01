@@ -1,4 +1,5 @@
 # pygit_test
+script.py
 Its simple request processing listener
 
 To test the server using fake local requests, I added curl req and json files.
@@ -12,3 +13,4 @@ curl -d "@push.json" -X POST http://localhost:8080/data -H "X-GitHub-Delivery: f
 
 curl -d "@delete.json" -X POST http://localhost:8080/data -H "X-GitHub-Delivery: 668964b0-b20d-11e9-9c12-93a4acef3d1f" -H "x-github-event: delete"
 
+For create table use create_table.py
