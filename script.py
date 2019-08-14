@@ -11,7 +11,7 @@ conn = psycopg2.connect(user='postgres',            # connect to postgres databa
                         password='11311131',
                         dbname='git_test',
                        )
-                        #host='server',             # use for reomote postgres server
+                        #host='server',             # use for remote database
                         #port='5432')
 table = 'test_git6'                                 # table name 
 local_host = 'localhost'                            # ip/port local server listener  (should be opened for internet connection )
